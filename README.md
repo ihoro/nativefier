@@ -9,20 +9,6 @@ Based on https://davidwalsh.name/convert-websites-apps
 ## Generate icon set required by macOS
 - `node_modules/.bin/nicns --in app-icon.png --out app-icon.icns`
 
-## Generate an app
-`
-node_modules/.bin/nativefier \
-    --name "David Walsh Blog" \
-    --verbose \
-    --counter \
-    --icon app-icons.icns \
-    --fast-quit \
-    --inject custom-css.css \
-    --inject custom-js.js \
-    --flash # gross
-    "https://davidwalsh.name"
-`
-
 Conf parameters manual: https://github.com/jiahaog/nativefier/blob/development/docs/api.md
 
 ### Workplace
